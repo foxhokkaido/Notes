@@ -1,0 +1,8 @@
+node index.js - запустить скрипт
+
+npm init - автоматически создает package.json
+npm start - запускает приложение, если в package.json указан script "start"
+npm install eslint --save-dev - установка eslint в папку проекта в devDependencies
+npm install eslint -g - глобальная установка eslint 
+./node_modules/.bin/eslint --init 
+npx install-peerdeps --dev eslint-config-airbnb-base
